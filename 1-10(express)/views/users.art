@@ -1,0 +1,13 @@
+<table border="1" style="background-color:pink">
+    <tr>
+        <th>姓名</th>
+        <th>密码</th>
+    </tr>
+    {{each users user}}
+    <tr>
+        <td>{{user.username}}</td>
+        <td>{{user.password}}</td>
+    </tr>
+    
+    {{/each}}
+</table>
